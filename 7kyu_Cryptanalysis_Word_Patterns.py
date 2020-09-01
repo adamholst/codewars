@@ -26,3 +26,8 @@ def word_pattern(word):
   return pattern
 
 print(word_pattern('Hippopotomonstrosesquippedaliophobia'))
+
+'''
+def word_pattern(s):
+    return '.'.join(str(list(dict.fromkeys(s.lower())).index(i)) for i in s.lower())
+'''
