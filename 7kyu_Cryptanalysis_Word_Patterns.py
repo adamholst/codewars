@@ -24,10 +24,6 @@ def word_pattern(word):
         chars[c] = max(chars.values()) + 1
       pattern = ".".join([pattern, str(chars.get(c))])
   return pattern
+#return '.'.join(str(list(dict.fromkeys(s.lower())).index(i)) for i in s.lower())
 
 print(word_pattern('Hippopotomonstrosesquippedaliophobia'))
-
-'''
-def word_pattern(s):
-    return '.'.join(str(list(dict.fromkeys(s.lower())).index(i)) for i in s.lower())
-'''
