@@ -21,7 +21,7 @@ def add(num1, num2):
     a.insert(0,d)
   return int("".join(a))
 
-def onliner(num1, num2):
+def oneliner(num1, num2):
   return int(str(add(a//10,b//10))+str(a%10+b%10)) if a*b else a+b
 
 print(add(16, 18))
