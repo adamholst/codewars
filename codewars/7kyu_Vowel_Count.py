@@ -9,7 +9,7 @@ The input string will only consist of lower case letters and/or spaces.
 def get_count(input_str):
   num_vowels = 0
   for c in input_str:
-    if c in ['a','e','i','o','u']:
+    if c in 'aeiou':
       num_vowels += 1
   
   return num_vowels
