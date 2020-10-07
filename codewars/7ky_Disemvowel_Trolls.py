@@ -19,4 +19,4 @@ def disemvowel(string):
   return new_string
   
 def oneLiner(string):
-  return "".join(c for c in string if c.lower() not in "aeiou")
+  return ''.join(c for c in string if c.lower() not in 'aeiou')
